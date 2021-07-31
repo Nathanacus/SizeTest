@@ -1,15 +1,19 @@
+/* Mobile First */
 #test {
-    color: green;
+    color: blue;
 }
 
-@media (max-device-width: 992px) {
+/* Tablets Second */
+@media only screen and (min-width: 600px) {
     #test {
         color: red;
     }
+
 }
 
-@media (max-device-width: 768px) {
+/* Large Screens Third */
+@media only screen and (min-width: 992px) {
     #test {
-        color: blue;
+        color: green;
     }
 }
