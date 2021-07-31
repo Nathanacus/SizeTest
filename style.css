@@ -2,14 +2,16 @@
     color: green;
 }
 
-@media only all and (max-width: 992px) {
+/*
+@media only screen and (max-width: 992px) {
     #test {
         color: red;
     }
 }
+*/
 
 
-@media only all and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
     #test {
         color: blue;
     }
